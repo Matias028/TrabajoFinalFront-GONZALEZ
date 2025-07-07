@@ -1,0 +1,49 @@
+
+.menu-content {
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    min-width: 150px;
+    z-index: 10000;
+}
+
+.menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+    border: none;
+
+}
+
+/* Esto lo podés poner en tu archivo CSS global o en uno importado por MenuUser */
+
+.menu-content {
+    background-color: white;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    min-width: 130px;
+    z-index: 10000;
+}
+
+.menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+
+}
+
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
