@@ -1,12 +1,46 @@
-.calendar-container{
 
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 20px;
-    top: 100px;
-    margin-left: 70px;
-    margin-right: 20px;
-    word-wrap: break-word;
 
+.todo-container {
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 10px;
+}
+
+.todo-title{
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.task {
+    background: #e2e3e5;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.todo-input {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
 }

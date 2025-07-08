@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
       <form className="search">
-        <input type="search" className='search-input' placeholder='Buscar (Por DNI o Nombre) ' id='search' name='search' />
+        <input type="search" className='search-input' placeholder='Buscar ... ' id='search' name='search' />
         <button className='search-btn'><UserSearch /></button>
       </form>
       <div className="notifications-logout">

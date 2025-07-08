@@ -6,8 +6,8 @@ import '../styles/aside.css';
 const Aside = () => {
     return (
         <aside className="aside">
-            <Link to="/tasks" className="aside-button"><CalendarClock /> Turnos</Link>
-            <Link to="/tasks" className="aside-button-mobile"><CalendarClock /></Link>
+            <Link to="/date" className="aside-button"><CalendarClock /> Turnos</Link>
+            <Link to="/date" className="aside-button-mobile"><CalendarClock /></Link>
 
             <Link to="/pacientsList" className="aside-button"><Contact /> Pacientes</Link>
             <Link to="/pacientsList" className="aside-button-mobile"><Contact /></Link>

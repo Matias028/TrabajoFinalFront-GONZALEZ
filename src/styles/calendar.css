@@ -1,0 +1,12 @@
+.calendar-container{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    top: 100px;
+    margin-left: 70px;
+    margin-right: 20px;
+    word-wrap: break-word;
+
+}
