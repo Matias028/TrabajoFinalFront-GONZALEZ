@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import Header from '../src/components/Header';
-import Aside from '../src/components/aside';
+import Aside from '../src/components/Aside';
 import Body from '../src/components/Body';
 import DatePacient from './pages/DatePacient';
 import { Messages } from './pages/Messages';
