@@ -10,6 +10,8 @@ import pacientListData from '../data/pacientsListData';
 const Body = () => {
     const [pacients, setPacients] = useState(pacientListData.pacients);
     const [selectedPacientId, setSelectedPacientId] = useState(null);
+    const search = {pacients}
+
 
     const handleSelectPacient = (id) => {
         setSelectedPacientId(id);

@@ -8,6 +8,7 @@
     top: 80px;
     height: 88vh;
     justify-content: space-between;
+    
 }
 
 .aside-button {
@@ -21,6 +22,7 @@
     border-bottom: 1px solid #dee2e65f;
     color: #ffffffb6;
     letter-spacing: 1px;
+    text-decoration: none;
 
 }
 
@@ -64,6 +66,7 @@
         color: white;
         padding-bottom: 20px;
         padding-top: 20px;
+        text-decoration: none;
     }
 
     .aside {
@@ -88,6 +91,7 @@
         cursor: pointer;
         border: none;
         color: white;
+        text-decoration: none;
 
     }
 

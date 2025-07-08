@@ -1,29 +1,24 @@
-import React from 'react'
-import { CalendarClock } from 'lucide-react';
-import { Contact } from 'lucide-react';
-import { MessageCircleMore } from 'lucide-react';
-import { ListChecks } from 'lucide-react';
+import React from 'react';
+import { CalendarClock, Contact, MessageCircleMore, ListChecks } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import '../styles/aside.css';
 
 const Aside = () => {
     return (
         <aside className="aside">
-            <button className="aside-button"><CalendarClock /> Turnos</button>
-            <button className="aside-button-mobile"><CalendarClock /></button>
-            <button className="aside-button"><Contact /> Pacientes</button>
-            <button className="aside-button-mobile"><Contact /></button>
-            <button className="aside-button"><MessageCircleMore /> Mensajes</button>
-            <button className="aside-button-mobile"><MessageCircleMore /></button>
-            <button className="aside-button"><ListChecks /> Tareas</button>
-            <button className="aside-button-mobile"><ListChecks /></button>
+            <Link to="/tasks" className="aside-button"><CalendarClock /> Turnos</Link>
+            <Link to="/tasks" className="aside-button-mobile"><CalendarClock /></Link>
 
+            <Link to="/pacientsList" className="aside-button"><Contact /> Pacientes</Link>
+            <Link to="/pacientsList" className="aside-button-mobile"><Contact /></Link>
+
+            <Link to="/messages" className="aside-button"><MessageCircleMore /> Mensajes</Link>
+            <Link to="/messages" className="aside-button-mobile"><MessageCircleMore /></Link>
+
+            <Link to="/tasks" className="aside-button"><ListChecks /> Tareas</Link>
+            <Link to="/tasks" className="aside-button-mobile"><ListChecks /></Link>
         </aside>
-    )
-}
+    );
+};
 
 export default Aside;
-
-
-
-
-

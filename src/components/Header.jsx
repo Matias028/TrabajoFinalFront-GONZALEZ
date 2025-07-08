@@ -10,6 +10,7 @@ import MenuUser from '../components/MenuUser';
 
 
 
+
 const Header = () => {
   return (
     <header className="header">
@@ -20,10 +21,10 @@ const Header = () => {
           <MenuUser />
         </div>
       </div>
-      <label className="search">
-        <input type="search" className='search-input' placeholder='Buscar ... ' />
+      <form className="search">
+        <input type="search" className='search-input' placeholder='Buscar (Por DNI o Nombre) ' id='search' name='search' />
         <button className='search-btn'><UserSearch /></button>
-      </label>
+      </form>
       <div className="notifications-logout">
         <button className='notification-btn'><Bell /></button>
         <button className='logout-btn' onClick={showCloseSessionAlert}>Logout
